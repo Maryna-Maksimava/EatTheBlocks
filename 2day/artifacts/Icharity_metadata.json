@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"2day/Icharity.sol": "Icharity"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"2day/Icharity.sol": {
+			"keccak256": "0x8d560ed34aef4b987bb60b3fbdfb82ac0db81e8faec21e7c4459c187892cef76",
+			"urls": [
+				"bzz-raw://3ba14d134b1ce1de2a93ab89b9facddfcbcf395e8de9fb20120c96fca87accdb",
+				"dweb:/ipfs/QmaZ2hYRT6rkMqh6PMb17yBUNtcdUsEpdCc6EtCXHukzUM"
+			]
+		}
+	},
+	"version": 1
+}

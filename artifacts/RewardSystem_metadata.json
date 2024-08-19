@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tieredRewardSystem.sol": "RewardSystem"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tieredRewardSystem.sol": {
+			"keccak256": "0x91c661d9fe1672e35997fa2805a7a3cda1487dc987743553430e0901d23485c2",
+			"urls": [
+				"bzz-raw://60de5285d18802535a50024a86f7fa47402674764569b46f27115681e8987fad",
+				"dweb:/ipfs/QmTKsNRJ2yeWCntLMfABeSi4CQXPjQqyGRi7nWHdtGAWuq"
+			]
+		}
+	},
+	"version": 1
+}

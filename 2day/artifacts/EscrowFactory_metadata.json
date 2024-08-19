@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "InvalidIndex",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "escrowAddress",
+						"type": "address"
+					}
+				],
+				"name": "EscrowCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "payer",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "escrowAgent",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "payee",
+						"type": "address"
+					}
+				],
+				"name": "createEscrow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getEscrow",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEscrowsCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"2day/EscrowFactory.sol": "EscrowFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"2day/Escrow.sol": {
+			"keccak256": "0x5d0e04233e64b2284817f3be1ac74ecd92563c59f8e0f8dfb4cf51de60ad5aea",
+			"urls": [
+				"bzz-raw://be40326a2a15b4e49b163e9615b4068f5df479082e9209d090f754ac50bae5d4",
+				"dweb:/ipfs/QmVmZbn9rHVWPsN63qYp7N3iVew3Gr9sJGMioHioXTfAHm"
+			]
+		},
+		"2day/EscrowFactory.sol": {
+			"keccak256": "0xa16c9c7aab09d54798a24ca5760e28bedfed0a44a5ab984cdd2741e4d0d17a22",
+			"urls": [
+				"bzz-raw://56b029539932107324325ccaecf6e678071daa2925484f0cd497266db3ef9f54",
+				"dweb:/ipfs/QmZZNGYCS2FfcGGphPQB3ntcDSAxNMHMyHenPdtkVbtQr9"
+			]
+		}
+	},
+	"version": 1
+}
