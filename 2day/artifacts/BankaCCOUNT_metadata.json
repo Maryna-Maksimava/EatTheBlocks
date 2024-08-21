@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"2day/BankAccount.sol": "BankaCCOUNT"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"2day/BankAccount.sol": {
+			"keccak256": "0x4d6db7553d3809b466a71b00a422afca9f5965f6cd57004a37bb19cea177f214",
+			"urls": [
+				"bzz-raw://8bf7d277b2e4010f9496413a1bfdb82fe74e78d1b89a353df5dd121f39f468f1",
+				"dweb:/ipfs/QmRqyHRQzXMbxuvtdehSPyWPFdoLpcRE8jEM511w2H9bw2"
+			]
+		}
+	},
+	"version": 1
+}
